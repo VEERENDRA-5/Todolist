@@ -37,6 +37,10 @@
 
 }
 
+.todo-bg h1 {
+  font-family: 'caveat', sans-serif;
+}
+
 .input-con {
   column-gap: 15px;
   display: flex;
