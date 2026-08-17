@@ -1,29 +1,32 @@
-.item{
+.item {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
     width: 100%;
 }
-.text{
-    border: 2px  solid black;
+
+.text {
+    border: 2px solid black;
     border-radius: 6px;
-   background-color: rgb(205, 237, 237);
-   color: black;
-   font-family: 'roboto';
-   min-width:200px;
-   padding: 4px;
+    background-color: rgb(205, 237, 237);
+    color: black;
+    font-family: 'roboto';
+    min-width: 200px;
+    padding: 4px;
 
     height: 36px;
 }
-.delete{
+
+.delete {
     font-size: 25px;
     margin-top: 0px;
     padding-top: 0px;
-background: none;
-cursor: pointer;
+    background: none;
+    cursor: pointer;
+    background-color: green;
+    border: none;
+}
 
-border: none;}
-
-.strike{
+.strike {
     text-decoration: line-through;
 }
